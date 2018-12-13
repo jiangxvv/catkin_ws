@@ -1,0 +1,8 @@
+prefix=/home/jiangxvv/catkin_ws/devel
+
+Name: gnc_simulate
+Description: Description of gnc_simulate
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/jiangxvv/catkin_ws/devel/lib 
+Requires: 

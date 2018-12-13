@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "",
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "includePath": [
+                "/home/jiangxvv/catkin_ws/devel/include",
+                "/opt/ros/kinetic/include",
+                "/home/jiangxvv/catkin_ws/src/test1/include",
+                "/home/jiangxvv/catkin_ws/src/bobli1987-autonomous_tugboat-a80163bcc2ef/usv_sim/include",
+                "/home/jiangxvv/catkin_ws/src/usv_towing/include",
+                "/usr/include"
+            ],
+            "name": "Linux",
+            "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}

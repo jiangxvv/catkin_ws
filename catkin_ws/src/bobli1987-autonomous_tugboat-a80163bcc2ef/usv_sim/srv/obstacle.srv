@@ -1,0 +1,5 @@
+float64 x_coor
+float64 y_coor
+float64 radius
+---
+string response

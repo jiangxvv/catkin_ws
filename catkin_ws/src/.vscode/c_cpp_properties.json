@@ -1,0 +1,27 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "",
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "includePath": [
+                "/home/jiangxvv/catkin_ws/devel/include",
+                "/home/jiangxvv/catkin_sim/devel/include",
+                "/opt/ros/kinetic/include",
+                "/home/jiangxvv/catkin_ws/src/gnc_cable/include",
+                "/home/jiangxvv/catkin_ws/src/gnc_controller/include",
+                "/home/jiangxvv/catkin_ws/src/gnc_course/include",
+                "/home/jiangxvv/catkin_ws/src/gnc_msgs/include",
+                "/home/jiangxvv/catkin_ws/src/gnc_simulator/include",
+                "/home/jiangxvv/catkin_ws/src/gnc_vessel/include",
+                "/home/jiangxvv/catkin_ws/src/bobli1987-autonomous_tugboat-a80163bcc2ef/usv_sim/include",
+                "/home/jiangxvv/catkin_ws/src/usv_towing/include",
+                "/usr/include"
+            ],
+            "name": "Linux",
+            "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}

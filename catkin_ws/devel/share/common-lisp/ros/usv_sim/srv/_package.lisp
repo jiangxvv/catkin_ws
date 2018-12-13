@@ -1,0 +1,15 @@
+(cl:defpackage usv_sim-srv
+  (:use )
+  (:export
+   "OBSTACLE"
+   "<OBSTACLE-REQUEST>"
+   "OBSTACLE-REQUEST"
+   "<OBSTACLE-RESPONSE>"
+   "OBSTACLE-RESPONSE"
+   "WAYPOINT"
+   "<WAYPOINT-REQUEST>"
+   "WAYPOINT-REQUEST"
+   "<WAYPOINT-RESPONSE>"
+   "WAYPOINT-RESPONSE"
+  ))
+

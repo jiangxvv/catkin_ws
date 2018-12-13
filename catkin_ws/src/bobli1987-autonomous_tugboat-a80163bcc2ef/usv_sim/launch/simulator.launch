@@ -1,0 +1,62 @@
+<launch>  
+  <rosparam
+    file="$(find usv_sim)/config/control_params.yaml"
+    param="ctrl_params"
+    command="load"
+  />
+  
+  <param 
+    name="robot_description" textfile='$(find usv_sim)/urdf/ship.urdf'
+  />
+  <param 
+    name="use_gui" value="False"
+  /> 
+  <node
+    pkg="usv_sim"
+    type="ship_dynamics"
+    name="dynamics_node"
+  /> 
+  <node 
+    name="robot_state_publisher" 
+    pkg="robot_state_publisher" 
+    type="state_publisher"
+  />
+  <node
+    pkg="rviz"
+    type="rviz"
+    name="rviz_node"
+    args="-d $(find usv_sim)/config/rviz.rviz"
+  />
+  <node
+    pkg="usv_sim"
+    type="los_guidance"
+    name="guidance_node"
+  />
+  <node
+    pkg="usv_sim"
+    type="motion_controller"
+    name="control_node"
+  />
+  <node
+    pkg="usv_sim"
+    type="path_planner"
+    name="planner_node"
+    respawn="true"
+  />
+  <node
+    pkg="usv_sim"
+    type="viz_ship"
+    name="visualization_node"
+  />
+  <node
+    pkg="usv_sim"
+    type="task_manager"
+    name="manager_node"
+    launch-prefix="xterm -e"
+  />
+  <node
+    pkg="usv_sim"
+    type="thrust_allocation"
+    name="allocation_node"
+  />
+</launch>

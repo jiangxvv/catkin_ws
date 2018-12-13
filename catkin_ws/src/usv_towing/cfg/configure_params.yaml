@@ -1,0 +1,19 @@
+# positons and force orientations of four tugs
+# need to be added later
+
+position_and_angle:
+    tug1_x: 100
+    tug1_y: 20
+    tug1_alpha:  45
+
+    tug2_x: 100
+    tug2_y: -20
+    tug2_alpha: -45
+
+    tug3_x:  -100
+    tug3_y:    -20
+    tug3_alpha: -135
+
+    tug4_x:  -100
+    tug4_y:   20
+    tug4_alpha: 45

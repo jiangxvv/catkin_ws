@@ -1,0 +1,19 @@
+<launch>
+
+<node
+  pkg="gnc_vessel"
+  type="dynamic_test_node"
+  name="dynamic_test_node"
+  />
+ 
+ 
+ <node 
+    pkg="gnc_vessel" 
+    type="tug1_dynamic"
+    name="tug1_dynamic" 
+ />
+ 
+
+ 
+ 
+ </launch>

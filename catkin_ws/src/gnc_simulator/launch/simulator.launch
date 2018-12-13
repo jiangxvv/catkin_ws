@@ -1,0 +1,58 @@
+<launch>
+
+
+
+
+
+<node 
+    pkg="gnc_simulator" 
+    type="central_controller"
+    name="central_controller" 
+ />
+ 
+ <node 
+    pkg="gnc_simulator" 
+    type="thruster_connect"
+    name="thruster_connect" 
+ />
+ 
+ <node 
+    pkg="gnc_simulator" 
+    type="tug1_controller"
+    name="tug1_controller" 
+ />
+ 
+ <node 
+    pkg="gnc_simulator" 
+    type="tug2_controller"
+    name="tug2_controller" 
+ />
+ 
+ <node 
+    pkg="gnc_vessel" 
+    type="mothership_dynamic"
+    name="mothership_dynamic" 
+ />
+ 
+ 
+ <node 
+    pkg="gnc_vessel" 
+    type="tug1_dynamic"
+    name="tug1_dynamic" 
+ />
+ 
+ <node 
+    pkg="gnc_vessel" 
+    type="tug2_dynamic"
+    name="tug2_dynamic" 
+ />
+ 
+ <node 
+    pkg="gnc_course" 
+    type="course_node"
+    name="course_ndoe" 
+ />
+ 
+ 
+ 
+ </launch>
